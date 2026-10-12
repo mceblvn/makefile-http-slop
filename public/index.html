@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>makefile-http</title>
+<style>
+  body { background: #14151a; color: #e8e8ea; font-family: sans-serif; text-align: center; }
+  .meme {
+    background: #2b2e3b; border-radius: 22px;
+    max-width: 520px; margin: 40px auto; padding: 28px 28px 20px;
+    text-align: left; transform: rotate(-3deg);
+    box-shadow: 0 12px 40px rgba(0,0,0,.6);
+  }
+  .query { font-size: 30px; }
+  .cursor { display: inline-block; width: 3px; height: 1em; background: #e8e8ea;
+    vertical-align: -2px; animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .row { display: flex; align-items: center; gap: 14px; margin-top: 26px;
+    color: #c9b8ad; font-size: 22px; }
+  .plus { font-size: 30px; color: #aeb4c6; }
+  .foot { color: #888; font-size: 13px; margin-top: 30px; }
+</style>
+</head>
+<body>
+<h1>hello world</h1>
+<div class="meme">
+  <div class="query">who is json<span class="cursor"></span></div>
+  <div class="row"><span class="plus">+</span><span>&#9432; Full access &#8964;</span></div>
+</div>
+<p>served by make. yes, make.</p>
+<p class="foot">jason bourne's data format. probably.</p>
+</body>
+</html>
