@@ -73,7 +73,7 @@ with TCP while introducing groundbreaking optimizations (a fifo)!!! 🌌*
 
 ```bash
 # 1️⃣🌍 Clone the future!!!
-git clone <this-repo> && cd makefile-http
+git clone https://github.com/mceblvn/makefile-http-slop.git && cd makefile-http-slop
 
 # 2️⃣🔍 Verify your quantum readiness (needs: make, bash, nc, curl, mkfifo)!!!
 make check-deps
